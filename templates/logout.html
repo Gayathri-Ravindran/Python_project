@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LOGOUT</title>
+</head>
+<body>
+<from action="" method="post">
+   {% csrf_token %}
+<input type="text" name="username" placeholder="Enter username"><br>
+<input type="password" name="password" placeholder="Enter password"><br>
+<input type="submit">
+</from>
+</body>
+</html>
